@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-height: 100%;
+    max-width: 100%;
+}
+@media  only screen and (max-width: 400px){
+
+
+    .icon-sec{
+        display: flex;
+    }
+    .nav-list{margin: 30px 15px;
+    border: solid;
+   padding: 3px 3px 3px 3px;
+   border-radius: 5px;
+   border-color: rgb(180, 173, 173);
+  
+}
+.second-nav{
+    margin: 30px 10px;
+    border: solid;
+    padding: 3px 3px 3px 3px;
+   border-radius: 5px;
+  margin-left: 280px;
+  border-color: rgb(180, 173, 173);
+
+}
+
+
+
+.head{
+    margin: 1px 1px 30px 10px;
+}
+
+h1{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+.h-p{
+    color: tomato;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+
+
+    .container{
+        border: none;
+        padding: 1px 5px 10px 1px;
+       display: flex;
+       background-color: rgb(238, 254, 254);
+       border-radius: 15px;
+       margin: 1px 15px;
+       position: relative;
+       
+    }
+    .h-side{
+        padding-top: 40px;
+        margin: 10px;
+        
+    }
+    h2{
+        color:black;
+        font-size: 20px;
+        font-family: sans-serif;
+    }
+    .btn{
+        margin: 20px 10px;
+        padding: 12px 15px;
+        border-radius: 10px;
+        color: #fff;
+        background-color: black;
+    }
+    .img-pp{
+        position: absolute;
+        margin-left: 60px;
+      padding: 0px 1px 10px 1px;
+    
+       
+    }
+
+    /* middle section */
+    .m-sec{
+        display: flex;
+        margin-top: 20px;
+        padding: 3px;
+    }
+    .first-d{
+        padding: 10px;
+    }
+    .f-h{
+        font-size: 29px;
+        font-weight: 700;
+        font-family: sans-serif;
+    }
+    .f-p{
+        font-family: sans-serif;
+        color: tomato;
+    }
+
+    .second-d{
+        padding: 10px;
+    }
+.s-h{
+    font-size: 29px;
+        font-weight: 700;
+        font-family: sans-serif;
+        color: rgb(181, 181, 182);
+}
+.s-p{
+    font-family: sans-serif;
+    color: rgb(181, 181, 182);
+}
+
+
+    .third-d{
+        padding: 10px;
+    }
+    .t-h{
+        font-size: 29px;
+        font-weight: 700;
+        font-family: sans-serif;
+        color: rgb(181, 181, 182);
+    }
+    .t-p{
+        font-family: sans-serif;
+        color: rgb(181, 181, 182);
+    }
+    .cart-container{
+        display: flex;
+        margin: 10px;
+    }
+    /* FIRST CART PAGE */
+
+    .first-cart{
+        border: solid;
+        padding: 30px;
+        margin: 5px;
+        border-radius: 15px;
+        background-color: rgb(238, 254, 254);
+        border-style: none;
+    }
+    .h-cart{
+        font-size: 17px;
+        color:rgb(55, 53, 53);
+        font-family: sans-serif;
+    }
+    .p-cart{
+        font-size: 18px;
+       color: rgb(55, 53, 53);
+        font-family: sans-serif;
+    }
+    .dot{
+        display: flex;
+        
+    }
+    .f-d{
+        border: solid;
+        background-color: rgb(69, 129, 207);
+        color: rgb(69, 129, 207);
+        margin: 2px;
+        padding: 5px;
+        height: 10px;
+        border-style: none;
+    
+    }
+    .s-d{
+        border: solid;
+        background-color:tomato;
+        color: tomato;
+        padding: 5px;
+        margin: 2px;
+        height: 10px;
+        border-style: none;
+    }
+    .rate1{
+        display: flex;
+    }
+    .price-d{
+        border: solid;
+        background-color: #fff;
+        margin-left: 30px;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    h4{
+        font-size: 17px;
+        font-family: sans-serif;
+    }
+    .parag{
+        font-weight: 10px;
+        font-family: sans-serif;
+    }
+
+
+/* SECOND CART PAGE */
+
+    .second-cart{
+        border: solid blue;
+        padding: 30px;
+        margin: 5px;
+        border-radius: 15px;
+        background-color:rgb(238, 254, 254);
+        border-style: none;
+
+    }
+    .h-cart2{
+        font-size: 17px;
+       color: rgb(55, 53, 53);
+        font-family: sans-serif;
+
+    }
+    .p-cart2{
+        font-size: 15px;
+       color: rgb(55, 53, 53);
+        font-family: sans-serif;
+    }
+    .s-dot{
+        display: flex;
+    }
+    .f2-d{
+        border: solid;
+        background-color: greenyellow;
+        color: greenyellow;
+        padding: 5px;
+        margin: 2px;
+        height: 10px;
+        border-style: none;
+
+    }
+    .s2-d{
+        border: solid;
+        background-color:rgb(60, 60, 146);
+        color: rgb(60, 60, 146);;
+        padding: 5px;
+        margin: 2px;
+        height: 10px;
+        border-style: none;
+    }
+    .s3-d{
+        border: solid;
+        background-color: black;
+        color: black;
+        padding: 5px;
+        margin: 2px;
+        height: 10px;
+        border-style: none;
+    }
+   
+    .rate2{
+        display: flex;
+    }
+
+
+    /* nav-list */
+    .icon-list{
+        display: flex;
+        margin-left: 90px;
+    }
+    .hom-key{
+        margin: 20px;
+    }
+    .search{
+        margin: 10px;
+        border: solid;
+        padding:10px ;
+        border-radius: 50px;
+        background-color: black;
+    }
+    .love-key{
+        margin: 20px;
+    }
+
+}
+    
