@@ -14,7 +14,7 @@
     .nav-list{margin: 30px 15px;
     border: solid;
    padding: 3px 3px 3px 3px;
-   border-radius: 5px;
+   border-radius: 10px;
    border-color: rgb(180, 173, 173);
   
 }
@@ -22,7 +22,7 @@
     margin: 30px 10px;
     border: solid;
     padding: 3px 3px 3px 3px;
-   border-radius: 5px;
+   border-radius: 10px;
   margin-left: 280px;
   border-color: rgb(180, 173, 173);
 
