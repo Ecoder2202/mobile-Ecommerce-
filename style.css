@@ -17,8 +17,10 @@
    padding: 3px 3px 3px 3px;
    border-radius: 10px;
    border-color: rgb(180, 173, 173);
+   position: sticky;
    position: -webkit-sticky;
-        position: sticky;
+   top: 0;
+        
   
 }
 .second-nav{
@@ -28,8 +30,9 @@
    border-radius: 10px;
   margin-left: 280px;
   border-color: rgb(180, 173, 173);
+  position: sticky;
   position: -webkit-sticky;
-position: sticky;
+top: 0;
 
 }
 
@@ -136,6 +139,8 @@ h1{
     .cart-container{
         display: flex;
         margin: 10px;
+        margin-left: 10px;
+
     }
 
 
